@@ -1,0 +1,50 @@
+@use './flex.scss';
+/* setting.scss */
+html {
+    font-size: 16px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    width: 100% !important;
+}
+// @media (width > 1600px)  {
+//     html {
+//         font-size: 16px;
+//     }
+// }
+// @media (width < 1200px)  {
+//     html {
+//         font-size: 14px;
+//     }
+// }
+#app {
+    width: 100%;
+    height: 100%;
+}
+* {
+    box-sizing: border-box;
+    line-height: 1em;
+    // color: #585858;
+}
+.el-icon {
+    cursor: pointer;
+}
+.el-dropdown-menu {
+    .el-dropdown-menu__item {
+        user-select: none;
+    }
+}
+// antd
+.ant-select-selector,.ant-input,.ant-input-number,.ant-picker {
+    border-radius: 4px !important;
+}
+.ant-select-item-option-content {
+    line-height: 22px !important;
+}
+/* element global */
+.home {
+    // .el-popper {
+    //     background-color: #090b28 !important;
+    // }
+}

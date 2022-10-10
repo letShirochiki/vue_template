@@ -1,0 +1,14 @@
+@forward 'element-plus/theme-chalk/src/common/var.scss' with (
+  $colors: (
+    'primary': (
+      'base': #009696,
+    ),
+  ),
+  $menu: (
+    'text-color': white,
+    'bg-color': transparent,
+    'hover-bg-color': rgba(#42a8c1,.2),
+    'item-font-size': 1rem,
+  ) 
+);
+@use "element-plus/theme-chalk/src/index.scss" as *;

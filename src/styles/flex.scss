@@ -1,0 +1,109 @@
+/* flex */
+.flexBoxStart {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: stretch;
+    align-items: center;
+}
+
+.flexBoxStartReverse {
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    justify-content: stretch;
+    align-items: center;
+}
+
+.flexBoxStartRW {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: stretch;
+    align-items: center;
+}
+
+.flexBoxStretch {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: stretch;
+    align-items: stretch;
+}
+.flexBoxSStretch_center {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: stretch;
+    align-items: center;
+}
+
+.flexBoxBetween {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.flexBoxBetween_wrap {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.flexBoxBetweenS {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.flexBoxAround {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.flexBoxAroundWrap {
+    display: flex;
+    flex-flow: row wrap;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+.flexBoxCenter {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexBoxColumnStretch {
+    /* // 不要使用会使子元素无法继承 flex:1 的高度 */
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: stretch;
+    /* // justify-content: flex-sflexBoxColumnStretchtart;不要使用会使子元素无法继承 flex:1 的高度 */
+    justify-content: stretch;
+}
+
+.flexBoxColumnCenter {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexBoxColumnBetween {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.flexBoxColumnJustifyCenter {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.flexBoxColumnAlignCenter {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: stretch;
+    align-items: center;
+}
