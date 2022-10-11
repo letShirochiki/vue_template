@@ -1,9 +1,9 @@
 /**
 * Author        : let_shirochiki
-* CreateDate    : Mon Oct 10 2022 17:06:21 GMT+0800 (中国标准时间)
-* ComponentName : Login
+* CreateDate    : Tue Oct 11 2022 15:51:05 GMT+0800 (中国标准时间)
+* ComponentName : Template
 * lastEditTime  : 
-* FilePath      : /src/views/Login/index.vue
+* FilePath      : /src/views/Template/index.vue
 */
 <script setup lang = 'ts'>
 // core
@@ -27,8 +27,8 @@ onUnmounted(() => {
 </script>
 
 <template>
-    <div class="login">
-        Login页面111
+    <div class="template">
+        Template页面
     </div>
 </template>
 <style lang="scss" scoped>

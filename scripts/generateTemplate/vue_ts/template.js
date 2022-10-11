@@ -59,7 +59,7 @@ const tsRulesTemplate = (componentName) => {
 * FilePath      : /src/views/${componentName}/${componentName.toLocaleLowerCase()}.d.ts
 */`};
 
-module.exports = {
+export {
     vueTemplate,
     scssTemplate,
     tsRulesTemplate,

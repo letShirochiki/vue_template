@@ -1,9 +1,12 @@
-const chalk = require('chalk');
-const path = require('path');
-const fs = require('fs');
-const { vueTemplate, scssTemplate, tsRulesTemplate } = require('./template.cjs');
 
-const resolve = (...file) => path.resolve(__dirname, ...file);
+import chalk from 'chalk';
+import path from 'path';
+import fs from 'fs';
+
+import { vueTemplate, scssTemplate, tsRulesTemplate } from './template.js'
+import './expandGlobal.js';
+
+const resolve = (...file) => path.resolve(global.getDirName(import.meta.url), ...file);
 const log = (message) => console.log(chalk.green(`${message}`));
 const successLog = (message) => console.log(chalk.blue(`${message}`));
 const errorLog = (error) => console.log(chalk.red(`${error}`));
